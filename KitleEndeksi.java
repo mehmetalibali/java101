@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class KitleEndeksi {
+    public static void main(String[] args) {
+        Scanner inp = new Scanner(System.in);
+        double boy, kilo, sonuc;
+        System.out.print("Lütfen Boyunuzu Metre Cinsinden Giriniz: ");
+        boy = inp.nextDouble();
+        System.out.print("Lütfen Kilonuzu Giriniz: ");
+        kilo = inp.nextDouble();
+        sonuc = kilo / (boy * boy);
+        System.out.println("Vücut Kitle İndexiniz: " + sonuc);
+
+    }
+}
